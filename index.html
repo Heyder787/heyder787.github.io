@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <canvas id="golden-dust"></canvas>
+
+    <div class="page-overlay"></div>
+
+    <div class="site">
+      <header class="site-header">
+        <div class="brand">
+          <div class="brand-mark"></div>
+          <span class="brand-name" data-i18n="name">Your Name</span>
+        </div>
+
+        <nav class="nav">
+          <button class="nav-link" data-scroll="#about" data-i18n="nav_about">
+            About
+          </button>
+          <button class="nav-link" data-scroll="#education" data-i18n="nav_education">
+            Education
+          </button>
+          <button class="nav-link" data-scroll="#skills" data-i18n="nav_skills">
+            Skills
+          </button>
+          <button class="nav-link" data-scroll="#contact" data-i18n="nav_contact">
+            Contact
+          </button>
+        </nav>
+
+        <div class="lang-toggle" aria-label="Language toggle">
+          <button class="lang-btn active" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="az">AZ</button>
+        </div>
+      </header>
+
+      <main class="site-main">
+        <section id="about" class="section hero">
+          <div class="section-content">
+            <p class="section-kicker" data-i18n="role_kicker">Linguist · Translator</p>
+            <h1 class="hero-title" data-i18n="hero_title">
+              Precision in language, clarity in meaning.
+            </h1>
+            <p class="hero-summary" data-i18n="hero_summary">
+              I am a linguistics and translation specialist focused on delivering clear,
+              culturally aware communication across languages. My work combines academic
+              depth with practical, human-centered translation.
+            </p>
+          </div>
+        </section>
+
+        <section id="education" class="section">
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="education_title">Education</h2>
+            <div class="section-line"></div>
+          </div>
+          <div class="section-body">
+            <article class="card">
+              <h3 class="card-title" data-i18n="education_university">
+                Khazar University
+              </h3>
+              <p class="card-subtitle" data-i18n="education_program">
+                Linguistics / Translation
+              </p>
+              <p class="card-text" data-i18n="education_description">
+                Academic training in linguistics, translation theory, and practice with a
+                focus on accuracy, style, and cross-cultural communication.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section id="skills" class="section">
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="skills_title">Skills</h2>
+            <div class="section-line"></div>
+          </div>
+          <div class="section-body">
+            <div class="skills-grid">
+              <div class="skill-pill" data-i18n="skill_translation">
+                Translation (AZ ↔ EN)
+              </div>
+              <div class="skill-pill" data-i18n="skill_linguistics">
+                Applied Linguistics
+              </div>
+              <div class="skill-pill" data-i18n="skill_localization">
+                Localization & Adaptation
+              </div>
+              <div class="skill-pill" data-i18n="skill_proofreading">
+                Editing & Proofreading
+              </div>
+              <div class="skill-pill" data-i18n="skill_academic">
+                Academic Writing
+              </div>
+              <div class="skill-pill" data-i18n="skill_terminology">
+                Terminology Management
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="section">
+          <div class="section-header">
+            <h2 class="section-title" data-i18n="contact_title">Contact</h2>
+            <div class="section-line"></div>
+          </div>
+          <div class="section-body contact-body">
+            <p class="contact-text" data-i18n="contact_intro">
+              For collaborations, translation projects, or consultations, feel free to
+              reach out.
+            </p>
+            <div class="contact-list">
+              <a href="mailto:you@example.com" class="contact-item">
+                <span class="contact-label" data-i18n="contact_email_label">Email</span>
+                <span class="contact-value">you@example.com</span>
+              </a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" class="contact-item">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">@yourprofile</span>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span data-i18n="footer_text">
+          © <span id="year"></span> Your Name. All rights reserved.
+        </span>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+  </html>
+
