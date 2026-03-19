@@ -14,7 +14,7 @@ document.querySelectorAll("[data-scroll]").forEach((btn) => {
 // Language data
 const translations = {
   en: {
-    name: "Your Name",
+    name: "Heydar",
     nav_about: "About",
     nav_education: "Education",
     nav_skills: "Skills",
@@ -42,7 +42,7 @@ const translations = {
     footer_text: "© {year} Your Name. All rights reserved.",
   },
   az: {
-    name: "Sizin Adınız",
+    name: "Heyder",
     nav_about: "Haqqımda",
     nav_education: "Təhsil",
     nav_skills: "Bacarıqlar",
