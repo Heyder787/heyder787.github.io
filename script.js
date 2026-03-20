@@ -29,7 +29,7 @@ const translations = {
     education_description:
       "Academic training in linguistics, translation theory, and practice with a focus on accuracy, style, and cross-cultural communication.",
     skills_title: "Skills",
-    skill_translation: "Translation (AZ ↔ EN)",
+    skill_translation: "Translation (RUS ↔ EN)",
     skill_linguistics: "Applied Linguistics",
     skill_localization: "Localization & Adaptation",
     skill_proofreading: "Editing & Proofreading",
@@ -57,7 +57,7 @@ const translations = {
     education_description:
       "Linqvistika, tərcümə nəzəriyyəsi və praktikası üzrə elmi baza, dəqiqlik, üslub və mədəniyyətlərarası ünsiyyətə xüsusi diqqət.",
     skills_title: "Bacarıqlar",
-    skill_translation: "Tərcümə (AZ ↔ EN)",
+    skill_translation: "Tərcümə (RUS ↔ EN)",
     skill_linguistics: "Tətbiqi Linqvistika",
     skill_localization: "Lokallaşdırma və Adaptasiya",
     skill_proofreading: "Redaktə və korrektə",
